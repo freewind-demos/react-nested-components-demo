@@ -1,9 +1,9 @@
-import Hello from './hello.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TodoBox from './todo-box.jsx';
 
 ReactDOM.render(
-  <Hello />,
+  <TodoBox />,
   document.getElementById("content")
 );
 
